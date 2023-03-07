@@ -4,6 +4,7 @@ class CreateTableProjects < ActiveRecord::Migration[6.1]
       t.string :title, null: false
       t.string :description, null: false
       t.string :image_url
+      t.integer :user_id
       t.timestamps
     end
   end
